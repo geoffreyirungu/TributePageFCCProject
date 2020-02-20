@@ -1,0 +1,44 @@
+body *{
+    margin:0;
+    padding:0;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    background: #f5cb56;
+  }
+body{
+  background: black;
+  padding: 0;
+  margin:0;
+}
+#main{
+  width: 1000px;
+  margin: 0 auto;
+  padding: 1em 1em;
+}
+  #title{
+    font-family: 'Bangers', cursive;
+    font-size: 2.5em;
+  }
+  #sub-title{
+    font-family: 'Bangers', cursive;
+    font-size: 1.1em;
+    padding: 10px 0;
+  }
+  #img-div{
+    width: 100%;
+    margin: 1em auto;
+  }
+  img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+  }
+  #img-caption{
+    font-size:12px;
+  }
+  article > p:first-child{
+    text-align: justify;
+    margin-bottom: 1em;
+    line-height: 1.6;
+  }
